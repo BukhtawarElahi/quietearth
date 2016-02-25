@@ -3,6 +3,7 @@
  */
 FlowRouter.route(['/','/home'],{
     action:function() {
+<<<<<<< HEAD
         FlowLayout.render('layout', {sidebar: 'sidebar', main: 'home', cart: 'cart'})
     }
 });
@@ -20,10 +21,20 @@ FlowRouter.route('/admin',{
 
 FlowRouter.route('/register',{
     action:function() {
+=======
+        console.log("running '/' action to rnder layouts");
+        FlowLayout.render('layout', {sidebar: 'sidebar', main: 'home', cart: 'cart'})
+    }
+});
+FlowRouter.route('/register',{
+    action:function() {
+        console.log("running 'register' action to render layouts");
+>>>>>>> bfb62f71c4f45b6ad42f01edac4a46d396aaf381
         FlowLayout.render('layout', {sidebar: '', main: 'register', cart: ''})    }
 });
 FlowRouter.route('/signin',{
     action:function() {
+<<<<<<< HEAD
         FlowLayout.render('layout', {sidebar: '', main: 'signin', cart: ''})
     }
 });
@@ -46,6 +57,15 @@ FlowRouter.route('/signout',{
 
 FlowRouter.route('/checkout',{
     action:function() {
+=======
+        console.log("running 'signin' action to rnder layouts");
+        FlowLayout.render('layout', {sidebar: '', main: 'signin', cart: ''})
+    }
+});
+FlowRouter.route('/checkout',{
+    action:function() {
+        console.log("running action checkout to rnder layouts");
+>>>>>>> bfb62f71c4f45b6ad42f01edac4a46d396aaf381
         FlowLayout.render('layout', {sidebar: '', main: 'checkout', cart: ''})
     }
 });

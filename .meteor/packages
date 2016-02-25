@@ -22,4 +22,7 @@ insecure                # Allow all DB writes from clients (for prototyping)
 meteorhacks:flow-layout #for layout
 meteorhacks:flow-router #for routes
 mrt:bootstrap-3         #for bootstrap
+<<<<<<< HEAD
 accounts-password       #for authorization
+=======
+>>>>>>> bfb62f71c4f45b6ad42f01edac4a46d396aaf381
